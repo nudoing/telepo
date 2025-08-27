@@ -1,0 +1,25 @@
+{
+  "terminal.integrated.suggest.quickSuggestions": {
+    "commands": "on",
+    "arguments": "on",
+    "unknown": "off"
+  },
+  "githubIssues.queries": [
+    
+    {
+      "label": "自分の問題",
+      "query": "is:open assignee:${user} repo:${owner}/${repository}",
+      "groupBy": [
+        "milestone"
+      ]
+    },
+    {
+      "label": "作成された問題",
+      "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+    },
+    {
+      "label": "最近の問題",
+      "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+    }
+  ]
+}

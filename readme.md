@@ -12,3 +12,4 @@ interactionエンティティを右クリック時、data.teleportに記述し�
 
 # 要件
 - 利用には、MyWorld.portal.teleport パーミッションが必要
+- advancementが無効化されていないワールドであること
